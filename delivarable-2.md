@@ -4,7 +4,7 @@
 
 ```json
 // Ingress gateway
-> kubectl -n istio-system logs -l app=istio-ingressgateway | jq
+> kubectl -n istio-system logs -l app=istio-ingressgateway --tail=1 | jq
 {
   "start_time": "2022-01-31T02:41:48.989Z",
   "duration": 1,
