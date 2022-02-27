@@ -25,4 +25,4 @@ for i in {1..5}; do curl -sS http://$INGRESS -w "%{time_total}" -o /dev/null; ec
 
 ### Trace error with Adservice scaled to 0 replicas
 
-![adservice-trace-error](https://github.com/ton3s/istio-liveproject/blob/main/adservice-error.png)
+![adservice-trace-error](https://i.imgur.com/woXJALn.png)
